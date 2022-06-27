@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메디치피아 - 메인</title>
+    <link rel="stylesheet" href="css/my-reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/medi.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="top1">
+          <div class="in_wrap">
+            <img src="images/top_menu.png" alt="탑메뉴" usemap="#topmenu" />
+            <map name="topmenu" id="topmenu">
+              <area shape="rect" coords="14,8,70,30" href="#login" alt="로그인" />
+              <area shape="rect" coords="71,8,130,30" href="#join" alt="회원가입" />
+              <area shape="rect" coords="165,8,225,30" href="#medi" alt="병원소개" />
+              <area shape="rect" coords="226,8,279,30" href="#center" alt="고객센터" />
+              <area shape="rect" coords="280,8,330,30" href="#sitemap" alt="사이트맵" />
+            </map>
+          </div>
+        </div>
+        <div id="top2">
+          <div class="in_wrap">
+            <h1>
+              <a href="index.html"><img src="images/logo.png" alt="메디치피아" /></a>
+            </h1>
+            <ul class="gnb">
+              <li>
+                <a href="#"><img src="images/top_m1.png" alt="센터 소개" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/top_m2.png" alt="프로그램 안내" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/top_m3.png" alt="건강검진 예약" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/top_m4.png" alt="마이페이지" /></a>
+              </li>
+            </ul>
+            <h2>
+              <a href="#"><img src="images/logo2.png" alt="구로성심병원" /></a>
+            </h2>
+          </div>
+          <div class="bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="in_wrap">
+          <div class="con1 main_circle">
+            <h2 class="hide">종합검진센터 메디치피아</h2>
+            <img src="images/main.png" alt="메디치피아" usemap="#main_map" />
+            <map name="main_map" id="main_map">
+              <area shape="rect" coords="24,380,288,560" href="#mymedicheck" alt="내게 맞는 검진" />
+              <area shape="rect" coords="286,380,546,560" href="#viewcenter" alt="센터 둘러보기" />
+            </map>
+          </div>
+          <div class="con2 top_board">
+            <h2 class="hide">최근 게시물</h2>
+            <div class="tabmenu">
+              <div class="tits">
+                <a href="#gong" class="active">공지사항</a>
+                <a href="#news" class="">새소식</a>
+              </div>
+              <div class="con">
+                <ul id="gong">
+                  <li>
+                    <a href="#">
+                      <span class="b_tit">구로성심병원에서 알려드립니다.</span>
+                      <span class="b_date">2022.06.30</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <span class="b_tit">어버이날 봉사 활동</span>
+                      <span class="b_date">2022.06.30</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <span class="b_tit">협력기업과 동반성장 파트너십</span>
+                      <span class="b_date">2022.06.30</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <span class="b_tit">축하화환 활용 봉사활동 기금 적립</span>
+                      <span class="b_date">2022.06.30</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <span class="b_tit">구로성심병원 종합검진센터가 새롭게 오픈하였습니다. </span>
+                      <span class="b_date">2022.06.30</span>
+                    </a>
+                  </li>
+                  <li class="more">
+                    <a href="#">more</a>
+                  </li>
+                </ul>
+                <ul id="news">
+                  <li>새소식이 없습니다.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="con3 left_contact">
+            <h2 class="hide">연락 주세요</h2>
+            <a href="#"><img src="images/contact1.png" alt="진료문의 02-2067-1870" /></a>
+            <a href="#"><img src="images/contact2.png" alt="인터넷 검진예약" /></a>
+          </div>
+          <div class="con4 right_quick">
+            <h2 class="hide">내게 맞는 건강검진</h2>
+            <img src="images/quick.png" alt="퀵메뉴" usemap="#quick" />
+            <map name="quick" id="quick">
+              <area shape="rect" coords="10,140,73,163" href="#q1" alt="예약안내" />
+              <area shape="rect" coords="10,170,73,192" href="#q2" alt="운영시간 안내" />
+              <area shape="rect" coords="10,200,73,222" href="#q3" alt="구로성심병원" />
+              <area shape="rect" coords="10,230,73,253" href="#q4" alt="오시는 길" />
+            </map>
+          </div>
+          <div class="con5 top_float">
+            <h2 class="hide">광고</h2>
+            <img src="images/float_img.png" alt="메디치피아" />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="in_wrap">
+          <h3><img src="images/logo3.png" alt="구로성심병원" /></h3>
+          <div class="copy">
+            <img src="images/infor.png" alt="copyright gurosungsim medical center" />
+          </div>
+          <div class="info">
+            <img src="images/bott_menu.png" alt="하단메뉴" usemap="#botmenu" />
+            <map name="botmenu" id="botmenu">
+              <area shape="rect" coords="1,1,58,16" href="#b1" alt="개인정보방침" />
+              <area shape="rect" coords="63,1,122,16" href="#b2" alt="찾아오시는길" />
+              <area shape="rect" coords="125,1,170,16" href="#b3" alt="메일보내기" />
+            </map>
+            <div class="fam">
+              <button>
+                <img src="images/fam.png" alt="패밀리 사이트" />
+              </button>
+              <ul class="fam_list">
+                <li><a href="#">패밀리 사이트1</a></li>
+                <li><a href="#">패밀리 사이트2</a></li>
+                <li><a href="#">패밀리 사이트3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
